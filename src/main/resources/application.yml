@@ -1,3 +1,13 @@
 micronaut:
   application:
     name: demoProfiles
+
+#myservice:
+#  type: bar
+#  bar:
+#    value1: value1
+
+#myservice:
+#  type: foo
+#  foo:
+#    value1: value1
