@@ -1,12 +1,8 @@
-## Micronaut 2.3.1 Documentation
+Conditional Beans work when add configuration to application.yml.
 
-- [User Guide](https://docs.micronaut.io/2.3.1/guide/index.html)
-- [API Reference](https://docs.micronaut.io/2.3.1/api/index.html)
-- [Configuration Reference](https://docs.micronaut.io/2.3.1/guide/configurationreference.html)
-- [Micronaut Guides](https://guides.micronaut.io/index.html)
----
+But when use profiles, e.g. -Dmicronaut.environments=bar, it does not work:
+```
+No bean of type [com.example.service.MyService] exists.
+```
 
-## Feature http-client documentation
-
-- [Micronaut HTTP Client documentation](https://docs.micronaut.io/latest/guide/index.html#httpClient)
-
+https://docs.micronaut.io/latest/guide/index.html#conditionalBeans

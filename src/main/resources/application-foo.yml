@@ -1,0 +1,4 @@
+myservice:
+  type: foo
+  foo:
+    value1: value1

@@ -1,0 +1,4 @@
+myservice:
+  type: bar
+  bar:
+    value1: value1
